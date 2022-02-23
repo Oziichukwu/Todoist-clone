@@ -12,8 +12,7 @@ export const Checkbox = ( {id} ) =>{
                    archived : true, 
                 });
     }
-
-
+    
     return (
         <div 
            className="checkbox-holder"
