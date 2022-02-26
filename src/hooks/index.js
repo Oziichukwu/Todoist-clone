@@ -70,8 +70,8 @@ export const useProjects = ()=> {
                 }));
 
                 if(JSON.stringify(allProjects) !== JSON.stringify(projects)){
-                    setProjects(allProjects);
-                }
+                    setProjects(allProjects)
+                };
             });
     }, [projects]);
 
